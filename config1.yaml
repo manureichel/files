@@ -1,0 +1,18 @@
+database:
+  host: localhost
+  port: 5432
+  username: admin
+  password: secret
+  name: test_db
+
+server:
+  host: 0.0.0.0
+  port: 8000
+
+features:
+  enableSignup: true
+  maxUsers: 100
+
+logging:
+  level: debug
+  file: /var/log/app1.log
